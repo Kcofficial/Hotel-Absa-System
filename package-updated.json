@@ -1,0 +1,71 @@
+{
+  "name": "hotel-absa-system",
+  "version": "1.0.0",
+  "description": "Sistem analisis sentimen berbasis aspek untuk manajemen hotel menggunakan arsitektur hybrid BERTopic-RoBERTa-Explainable AI",
+  "main": "src/app/page.tsx",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export"
+  },
+  "keywords": [
+    "hotel",
+    "sentiment-analysis",
+    "aspect-based-sentiment-analysis",
+    "bertopic",
+    "roberta",
+    "explainable-ai",
+    "nextjs",
+    "typescript",
+    "hotel-management",
+    "customer-reviews",
+    "traveloka",
+    "ai",
+    "machine-learning",
+    "nlp",
+    "dashboard",
+    "analytics"
+  ],
+  "author": {
+    "name": "Dedi Kundana",
+    "email": "dedi.kundana@its.ac.id",
+    "url": "https://github.com/Kcofficial"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kcofficial/Hotel-Absa-System.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kcofficial/Hotel-Absa-System/issues"
+  },
+  "homepage": "https://github.com/Kcofficial/Hotel-Absa-System#readme",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "next": "15.3.5",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "tailwindcss": "^3.4.0",
+    "autoprefixer": "^10.0.0",
+    "postcss": "^8.4.0",
+    "lucide-react": "^0.263.1",
+    "z-ai-web-dev-sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "15.0.3",
+    "typescript": "^5.0.0"
+  }
+}
